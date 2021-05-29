@@ -1,0 +1,73 @@
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    color: brown;
+    box-shadow: 10px 10px 10px grey;
+    font-weight: bolder;
+}
+
+.heading_div{
+    float: none;
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+    color: brown;
+    box-shadow: 5px 5px 5px grey;
+}
+.heading_div2{
+    color: brown;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.heading_div:hover{
+    color: yellow;
+}
+
+.copy_right_footer{
+    position: fixed;
+    color: brown;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    bottom: 0;
+    width: 100%;
+    background-color: aqua;
+    line-height: 3;
+    text-align: center;
+}
+
+.result_para_tag{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+.result_para_tag:hover{
+    font-size: medium;
+    color: brown;
+}
+
+.copy_right_footer:hover{
+ color: burlywood;
+}
+
+canvas{
+    border: 10px solid red;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gray;
+    margin-top: 150px;
+}
+
+canvas:hover{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+
+    from{border-color: red;}
+    to{border-color: yellow;}    
+}
